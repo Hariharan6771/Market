@@ -2,15 +2,15 @@ package sunday1;
 
 public class CheckAcTemperature {  
 	public static void main(String[] args) {
-		int temperature=18;
-		if(temperature >16 && temperature <=18) {
+		int temp=18;
+		if(temp >16 && temp <=18) {
 			System.out.println("Very Cooling");
 		}
-		else if(temperature >18 && temperature <=22) {
+		else if(temp >18 && temp <=22) {
 			System.out.println("Cooling");
 		}
 		else {
-			System.out.println("Normal");
+			System.out.println("Ok");
 		
 				
 		}
